@@ -42,7 +42,7 @@ export default {
 <style>
 #app,
 .modals {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -51,5 +51,13 @@ export default {
 }
 #app h1 {
   color: grey;
+}
+.toggleModalBtn {
+  background: crimson;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 100px;
+  color: white;
 }
 </style>
